@@ -1,0 +1,88 @@
+#area_chat{
+  position: relative;
+  margin-left: 9%; 
+  margin-right: 1%;
+  background-color: rgb(232,324,212); 
+}
+
+.lista_lateral{
+	position: absolute;
+	float: left;
+	height: 100%;
+  width: -40%;
+
+}
+.icone-perfil{
+	position: relative;
+	float: left;
+	margin: 10px;
+}
+.nome-destinatario{
+	margin-left: 10%; 
+
+}
+
+.msg_cotainer{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #82ccdd;
+    padding: 10px;
+    position: relative;
+  }
+
+  .msg_cotainer_send{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #78e08f;
+    padding: 10px;
+    position: relative;
+  }
+  .msg_card_body{
+  position: relative;
+  /*background-color: rgb(232,324,212);*/
+  overflow-y: auto;
+    }
+
+.msg_time{
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    color: black;
+    font-size: 10px;
+  }
+  .msg_time_send{
+    position: absolute;
+    right:0;
+    bottom: -15px;
+    color: black;
+    font-size: 10px;
+  }
+
+  /*Barra de resposta*/
+
+.card-footer{
+    border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+  }
+
+.send_btn{
+	border-radius: 0 15px 15px 0 !important;
+	border:1 !important;
+	color: green !important;
+	cursor: pointer;
+    }
+.attach_btn{
+	border-radius: 15px 0 0 15px !important;
+	border:1 !important;
+	color: green !important;
+	cursor: pointer;
+    }
+
+  .emoticons-size{
+    width: 20px;
+    height: 20px;
+  }
